@@ -1,0 +1,36 @@
+Automation practice site-:" 	https://testautomationpractice.blogspot.com/"
+1. BaseLibrary
+2. LoginTest
+3. LoginPage
+ BaseLibrary will be called in both test class and page class
+ -> all annotation(Except @Findby) will be written in test class
+ -> all @Findby annotation will be in Page class 
+ -> Base class will include all the common functionality like: launchBrowser, readingData from excel etc
+ -> Base class also include "System.setProperty("webdriver.chrome.driver", path);" to letting know the exact location of webdriver and to invoke webbrowser
+ -> test class will create an object of respective page class
+ -> at-least under any one annotation, object creation will happen
+ -> In the page class, inside the constructor "PageFactory.initElements(driver, this)" will be. to initialize all the webelement under @FindBy annotation
+ -> in the Page class for every webelement, we will define a funciton, and inside this method we will ferform action
+ -> this function will be called in the Test Class inside  any Method under @test annotation like: ob.methodName();
+ -> define priority to avoid alphabetical order
+ ->NOTE:- Always add priority to the @test annotation else error:"no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='#tab_2']"}
+  (Session info: chrome=136.0.7103.116) fix it"
+ -> testng.xml- used to combined all the test class in a single file
+ -->) 	<suite name="Suite">
+ 		 <test thread-count="5" name="Test">
+   			 <classes>
+   				 <class name="tests.LoginTest"/>
+   			 </classes>
+ 		 </test> <!-- Test -->
+		</suite> <!-- Suite -->
+ -> enabled="true"
+ ->TestNG report-right click on project->
+ -> all the page interacting things will be in page class but in its order matters in test class like ifram switching
+ ->  switching to an iframe should always be handled in the Page Class, not in the Test Class,Because you’re using Page Object Model (POM), your Page Classes are responsible for all interactions with the web page, 
+ 	including switching to iframes. Your Test Class should only focus on high-level test steps, not low-level technical operations.
+ 	SOFT ASSERTION
+ 	SoftAssert softassert=new SoftAssert();
+ 	softassert.assertEquals(String, String);
+ 	softassert.assertAll();
+-> CONCLUSION:- if more than one elements are inside an iframe  but they are used  in defferent method so switching in frame in every methods in page class would be more convenient and less error prone as in the Checkbox page
+->17th Dec lecture is very important pls wathc it carefully 

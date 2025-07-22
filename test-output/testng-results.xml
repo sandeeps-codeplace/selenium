@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-10T21:18:27 IST" name="Suite" finished-at="2025-07-10T21:19:19 IST" duration-ms="52113">
+    <groups>
+    </groups>
+    <test started-at="2025-07-10T21:18:27 IST" name="Test1" finished-at="2025-07-10T21:18:39 IST" duration-ms="12377">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:tests.LoginTest@6572421]" started-at="2025-07-10T21:18:27 IST" name="launchUrl" finished-at="2025-07-10T21:18:34 IST" duration-ms="6707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="ClickonClose()[pri:0, instance:tests.LoginTest@6572421]" started-at="2025-07-10T21:18:34 IST" name="ClickonClose" finished-at="2025-07-10T21:18:37 IST" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonClose -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6572421]" started-at="2025-07-10T21:18:37 IST" name="teardown" finished-at="2025-07-10T21:18:39 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-07-10T21:18:39 IST" name="Test2" finished-at="2025-07-10T21:18:56 IST" duration-ms="16400">
+      <class name="tests.TextBoxTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:tests.TextBoxTest@689604d9]" started-at="2025-07-10T21:18:39 IST" name="launchURL" finished-at="2025-07-10T21:18:44 IST" duration-ms="4893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="clickOnClose()[pri:0, instance:tests.TextBoxTest@689604d9]" started-at="2025-07-10T21:18:44 IST" name="clickOnClose" finished-at="2025-07-10T21:18:48 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnClose -->
+        <test-method signature="ClickOnTxtBox()[pri:1, instance:tests.TextBoxTest@689604d9]" started-at="2025-07-10T21:18:48 IST" name="ClickOnTxtBox" finished-at="2025-07-10T21:18:49 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTxtBox -->
+        <test-method signature="FillDetail()[pri:2, instance:tests.TextBoxTest@689604d9]" started-at="2025-07-10T21:18:49 IST" name="FillDetail" finished-at="2025-07-10T21:18:53 IST" duration-ms="3916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillDetail -->
+        <test-method signature="clickOnSubmitBtn()[pri:3, instance:tests.TextBoxTest@689604d9]" started-at="2025-07-10T21:18:53 IST" name="clickOnSubmitBtn" finished-at="2025-07-10T21:18:53 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmitBtn -->
+        <test-method signature="validate()[pri:4, instance:tests.TextBoxTest@689604d9]" started-at="2025-07-10T21:18:53 IST" name="validate" finished-at="2025-07-10T21:18:53 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TextBoxTest@689604d9]" started-at="2025-07-10T21:18:53 IST" name="teardown" finished-at="2025-07-10T21:18:56 IST" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.TextBoxTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-07-10T21:18:56 IST" name="Test3" finished-at="2025-07-10T21:19:08 IST" duration-ms="11755">
+      <class name="tests.CheckBoxTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:18:56 IST" name="launchURL" finished-at="2025-07-10T21:19:00 IST" duration-ms="4132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="clickOnClose()[pri:0, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:00 IST" name="clickOnClose" finished-at="2025-07-10T21:19:03 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnClose -->
+        <test-method signature="clicickToCheckMobileBox()[pri:1, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:03 IST" name="clicickToCheckMobileBox" finished-at="2025-07-10T21:19:05 IST" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicickToCheckMobileBox -->
+        <test-method signature="clickTOMobileChkBx()[pri:2, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:05 IST" name="clickTOMobileChkBx" finished-at="2025-07-10T21:19:05 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTOMobileChkBx -->
+        <test-method signature="clickToMobileValidation()[pri:3, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:05 IST" name="clickToMobileValidation" finished-at="2025-07-10T21:19:07 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToMobileValidation -->
+        <test-method signature="clickToLaptopCheckBox()[pri:4, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:07 IST" name="clickToLaptopCheckBox" finished-at="2025-07-10T21:19:07 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToLaptopCheckBox -->
+        <test-method signature="clickToLaptopValidation()[pri:5, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:07 IST" name="clickToLaptopValidation" finished-at="2025-07-10T21:19:07 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToLaptopValidation -->
+        <test-method signature="clickToDesktopCheckBox()[pri:6, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:07 IST" name="clickToDesktopCheckBox" finished-at="2025-07-10T21:19:08 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToDesktopCheckBox -->
+        <test-method signature="clickToDesktopValidation()[pri:7, instance:tests.CheckBoxTest@6f1de4c7]" started-at="2025-07-10T21:19:08 IST" name="clickToDesktopValidation" finished-at="2025-07-10T21:19:08 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToDesktopValidation -->
+      </class> <!-- tests.CheckBoxTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2025-07-10T21:19:08 IST" name="Test4" finished-at="2025-07-10T21:19:19 IST" duration-ms="11370">
+      <class name="tests.RadioButtonTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:tests.RadioButtonTest@48f2bd5b]" started-at="2025-07-10T21:19:08 IST" name="launchURL" finished-at="2025-07-10T21:19:12 IST" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="clickOnClose()[pri:0, instance:tests.RadioButtonTest@48f2bd5b]" started-at="2025-07-10T21:19:12 IST" name="clickOnClose" finished-at="2025-07-10T21:19:16 IST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnClose -->
+        <test-method signature="clickToRadioBtn()[pri:1, instance:tests.RadioButtonTest@48f2bd5b]" started-at="2025-07-10T21:19:16 IST" name="clickToRadioBtn" finished-at="2025-07-10T21:19:18 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToRadioBtn -->
+        <test-method signature="clickToYesOption()[pri:2, instance:tests.RadioButtonTest@48f2bd5b]" started-at="2025-07-10T21:19:18 IST" name="clickToYesOption" finished-at="2025-07-10T21:19:18 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToYesOption -->
+        <test-method signature="validation()[pri:3, instance:tests.RadioButtonTest@48f2bd5b]" started-at="2025-07-10T21:19:18 IST" name="validation" finished-at="2025-07-10T21:19:19 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- tests.RadioButtonTest -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
